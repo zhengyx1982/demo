@@ -1,0 +1,14 @@
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <h2>Angular Router App</h2>
+  <nav>
+    <ul style="list-style-type: none; display: flex; justify-content: flex-end; margin: 0; padding: 0;">
+      <li style="margin-left: 10px;"><a routerLink="/index" routerLinkActive="active" ariaCurrentWhenActive="page">First Component</a></li>
+      <li style="margin-left: 10px;"><a routerLink="/second-component" routerLinkActive="active" ariaCurrentWhenActive="page">Second Component</a></li>
+      <li style="margin-left: 10px;"><a routerLink="/login" routerLinkActive="active" ariaCurrentWhenActive="page">Login</a></li>
+      <li style="margin-left: 10px;"><a routerLink="/register" routerLinkActive="active" ariaCurrentWhenActive="page">Register</a></li>
+    </ul>
+  </nav>
+</div>
+<!-- The routed views render in the <router-outlet>-->
+<router-outlet />
