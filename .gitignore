@@ -1,0 +1,68 @@
+# Binaries for programs and libraries
+bin/
+obj/
+
+# Visual Studio cache/options directory
+.vs/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+
+# Build results
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.exe.config
+*.xml
+*.log
+
+# NuGet packages
+packages/
+
+# Microsoft Azure Web App publish settings
+*.PublishSettings
+
+# Microsoft Azure Web App publish profiles
+*.pubxml
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Angular CLI
+angular.json
+angular-cli.json
+package.json
+package-lock.json
+tsconfig.json
+tslint.json
+
+# Build output
+dist/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Logs
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+
+# Editor files
+*.swp
+*.swo
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
